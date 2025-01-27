@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    /* background-image: url("assets/images/Solo\ Leveling_\ The\ Evolution\ of\ Sung\ Jin-Woo’s\ Shadow\ Army\,\ Explained.jpeg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+.board{
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    flex-wrap: wrap;
+    gap: 0.33rem;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+.btn{
+    height:6.25rem;
+    width: 6.25rem;
+    background-color: rgba(59, 58, 58, 0.646);
+    border-radius: 1rem;
+    color: aqua;
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 2px dotted white; */
+}
+.title h1{
+    color: white;
+    text-align: center;
+    margin: 3.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rbtn{
+    align-self: center;
+    margin: auto;
+    color: aqua;
+    width: 6.5rem;
+    height: 4.3rem;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem;
+}
+.winmsg{
+    text-align: center;
+}
+.winmsg h2{
+    padding: 20px;
+  color: white;
+  align-self: center;
+  font-weight: bolder;
+  position: relative;
+
+}
+.hide{
+    display: none;
+}
+.nbtn{
+    align-self: center;
+    margin: auto;
+    color: aqua;
+    width: 6.5rem;
+    height: 4.3rem;
+}
+
+.img{
+    position: absolute;
+    background-blend-mode: overlay;
+}
